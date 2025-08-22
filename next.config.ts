@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+      domains: ['neat-dove-689.convex.cloud']
+  }
 };
 
 export default nextConfig;
